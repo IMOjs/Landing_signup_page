@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+   
+    background-color:rgb(182, 93, 93);
+    opacity: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+
+}
+
+.hero{
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+.hero1{
+    width: 80%;
+    margin: auto;
+}
+
+.hero h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 0.5px;
+
+}  
+    
+.page{
+    margin: auto;
+    width: 50%;
+}
+
+.mainpage{
+    width: 70%;
+    margin: auto;
+}
+.page1{
+    border-radius: 5px;
+    background-color: rgb(57, 56, 110);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.head1{
+    text-align: center;
+}
+
+.head1 span {
+    font-weight: bold;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form p {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(138, 131, 123);
+}
+
+form p span {
+    font-weight: bold;
+    color: red;
+    
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(199, 173, 173);
+    border-radius: 3px;
+    outline: none;
+    margin: 10px 0;
+}
+input[type ="button"]{
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:hsl(154, 59%, 51%);
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width:768px) {
+
+
+body{
+    background: url(images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+   
+    background-color:rgb(182, 93, 93);
+    opacity: 1px;
+    
+}
+
+.container{
+    display: block;
+
+}
+
+.hero{
+    margin: auto;
+    width:100%;
+    color: white;
+    text-align: center;
+}
+
+.hero1{
+    width: 100%;
+    margin: auto;
+}
+
+.hero h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 25px 0;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 0.5px;
+
+
+}  
+    
+.page{
+    margin: auto;
+    width: 100%;
+}
+
+.mainpage{
+    width: 100%;
+    margin: auto;
+}
+.page1{
+    border-radius: 5px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+
+}
